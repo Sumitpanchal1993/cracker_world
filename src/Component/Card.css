@@ -1,0 +1,33 @@
+.card {
+    margin-top: 20px;
+    background-color: #346b7c00;
+    backdrop-filter: blur(10px);
+    /* -webkit-backdrop-filter: blur(0px); */
+    padding: 10px;
+    width: min-content;
+    max-height: 700px;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px white;
+    color: white;
+    margin-left: 20px;
+    transition: rotate, 2s;
+    overflow: hidden;
+  }
+  .card > img {
+    width: 200px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 0 20px yellow;
+    transform: scale(1.05);
+    /* transform: rotateY(360deg); */
+  }
+  .cards_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  

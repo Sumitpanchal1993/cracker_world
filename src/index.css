@@ -10,11 +10,46 @@
 body{
   background-image: url(./Media/Bg\ img.jpg);
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-size: cover;
 }
 .base{
   width: 100vw;
   height: 100vh;
-  background: rgba(1, 64, 122, 0.418)
+  background: rgba(1, 64, 122, 0.5)
+}
+
+
+button{
+  box-sizing:border-box;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+  border-radius:1rem;
+  margin: 0 1rem;
+  background:orange;
+  padding:0.3rem 1rem;
+  font-size: 1rem;
+  font-weight:bold;
+  transition: ease 0.5s;
+}
+button:hover{
+  box-shadow: 0 4px 8px 0 #969696 inset, 0 6px 20px 0 #616161 inset;
+  backgrounbutton{
+  box-sizing:border-box;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+  border-radius:1rem;
+  margin: 0 1rem;
+  background:orange;
+  padding:0.3rem 1rem;
+  font-size: 1rem;
+  font-weight:bold;
+  transition: ease 0.5s;
+}
+button:hover{
+  box-shadow: 0 4px 8px 0 #969696 inset, 0 6px 20px 0 #616161 inset;
+  background:#945100;
+  color: white;  
+}d:#945100;
+  color: white;  
 }

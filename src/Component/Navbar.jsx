@@ -5,16 +5,16 @@ import './Navbar.css'
 
 //Variable
 const menu = [
-    { name: 'Anar', path: '/' },
-    { name: 'Fulzhari', path: '/product' },
-    { name: 'Chakri', path: '/aboutus' },
-    { name: 'Sutli Bomb', path: '/contactus' },
-    { name: 'Kachra Bomb', path: '/tictactoe' },
-    { name: 'Rocket', path: '/todo' },
-    { name: 'Fancy Item', path: '/login' },
-    { name: 'Child Crackers', path: '/geardata' },
-    { name: 'Cart', path: '/geardata' },
-    { name: 'About Us', path: '/geardata' },
+    { name: 'अनार', path: '/' },
+    { name: 'फुलझारी', path: '/product' },
+    { name: 'चकरी', path: '/aboutus' },
+    { name: 'सुतली बम', path: '/contactus' },
+    { name: 'कचरा बम', path: '/tictactoe' },
+    { name: 'राकेट', path: '/todo' },
+    { name: 'फैंसी आइटम', path: '/login' },
+    { name: 'बच्चो के फटके ', path: '/geardata' },
+    { name: 'बिल', path: '/geardata' },
+    { name: 'हमारे बारे में ', path: '/geardata' },
 ];
 
 // functions
