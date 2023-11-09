@@ -11,7 +11,7 @@
     box-shadow: 0 0 10px white;
     color: white;
     margin-left: 20px;
-    transition: rotate, 2s;
+    transition: ease 0.8s;
     overflow: hidden;
   }
   .card > img {
@@ -20,7 +20,7 @@
   
   .card:hover {
     box-shadow: 0 0 20px yellow;
-    transform: scale(1.05);
+    transform: scale(1.03);
     /* transform: rotateY(360deg); */
   }
   .cards_list {

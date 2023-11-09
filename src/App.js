@@ -3,6 +3,8 @@ import Navbar from './Component/Navbar';
 import General from './Component/General';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Card from './Component/Card';
+import Main from './Component/Main';
+import Footer from './Component/Footer';
 
 
 function App() {
@@ -11,18 +13,9 @@ function App() {
       <div className="base">
         <Router>
           <Navbar />
-          <General/>
-          <div className="prd">
-
-          <Card/>
-          <Card/>
-          <Card/>
-          </div>
-          <Routes>
-            <Route></Route>
-          </Routes>
+          <Main />
+          <Footer />
         </Router>
-
       </div>
     </>
   );

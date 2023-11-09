@@ -14,7 +14,7 @@ body{
   background-size: cover;
 }
 .base{
-  width: 100vw;
+  /* width: 100vw; */
   height: 100vh;
   background: rgba(1, 64, 122, 0.5)
 }

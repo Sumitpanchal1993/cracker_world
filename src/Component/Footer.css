@@ -1,0 +1,35 @@
+footer{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 1rem 1.3rem; 
+    margin-top: 1rem;
+   
+  }
+   
+
+  .copyright{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.5rem; 
+  }
+
+
+
+  div{
+    /* border: 1px solid greenyellow; */
+  }
+
+  @media (max-width: 768px) {
+    footer {
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    
+    }
+  }
